@@ -3,18 +3,18 @@ package UA22.src.main.java.com.example.ua22;
 public class TestSimpsons {
 
     public static void main(String[] args) {
-        Person abe = new Person("Abe", 85);
-        Person Mona = new Person("Mona", 80);
-        Person Clancy = new Person("Clancy", 82);
-        Person Jackie = new Person("Jackie", 70);
-        Person Herb = new Person("Herb", 50);
-        Person Homer = new Person("Homer", 45);
-        Person Marge = new Person("Marge", 40);
-        Person Selma = new Person("Selma", 43);
-        Person Patty = new Person("Patty", 43);
-        Person Bart = new Person("Bart", 12);
-        Person Lisa = new Person("Lisa", 10);
-        Person Maggie = new Person("Maggie", 3);
+        Person abe = new Person("Abe");
+        Person Mona = new Person("Mona");
+        Person Clancy = new Person("Clancy");
+        Person Jackie = new Person("Jackie");
+        Person Herb = new Person("Herb");
+        Person Homer = new Person("Homer");
+        Person Marge = new Person("Marge");
+        Person Selma = new Person("Selma");
+        Person Patty = new Person("Patty");
+        Person Bart = new Person("Bart");
+        Person Lisa = new Person("Lisa");
+        Person Maggie = new Person("Maggie");
 
         Kind lisaKind = new Kind("Lisa Jr.", 3);
         lisaKind.setEltern(Marge, Homer);

@@ -5,7 +5,7 @@ public class Kind extends Person{
     private Paar<Person, Person> eltern;
 
     public Kind(String name, int alter) {
-        super(name, alter);
+        super(name);
 
     }
     public void setEltern(Person mutter, Person vater) {
