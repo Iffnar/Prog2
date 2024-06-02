@@ -4,7 +4,7 @@ public class Person {
 
     private String name;
     private int alter;
-    public Person(String name, int alter) {
+    public Person(String name) {
         this.name = name;
         this.alter = alter;
     }
@@ -23,5 +23,10 @@ public class Person {
 
     public void setAlter(int alter) {
         this.alter = alter;
+    }
+
+    @Override
+    public String toString() {
+        return name;
     }
 }
