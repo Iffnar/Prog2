@@ -8,7 +8,7 @@ public class StudUtil {
         Stud temp = m.get();
         sortedStud[0] = temp;
         m.delete(temp);
-        int j = 0;
+
         for(Stud s: m) {
             for(int i = sortedStud.length -1; i >= 0; i--) {
                 if (sortedStud[i] != null && s.compareTo(sortedStud[i]) < 0) {
@@ -18,7 +18,7 @@ public class StudUtil {
 
                 } else if(sortedStud[i] != null && s.compareTo(sortedStud[i]) > 0) {
                     sortedStud[i +1] = s;
-                    j++;
+
                 }
             }
         }
